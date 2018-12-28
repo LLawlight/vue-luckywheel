@@ -3,6 +3,31 @@
 组件名称：vue幸运转盘  
 应用场景：抽奖
 
+## Install
+```
+yarn add vue-luckywheel
+```
+or
+```
+npm install vue-luckywheel
+```
+
+## Usage
+```
+import VueLuckywheel from 'vue-luckywheel'
+import 'vue-luckywheel/lib/vue-luckywheel.css'
+
+Vue.use(VueLuckywheel)
+```
+
+## Demo
+
+### online
+https://llawlight.github.io/vue-luckywheel
+
+### code
+https://github.com/LLawlight/vue-luckywheel/tree/master/src/examples
+
 ## Luckywheel Events
 | 事件名称 | 说明 | 回调参数 |
 | ------ | ------ | ------ |
