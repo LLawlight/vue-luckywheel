@@ -1,14 +1,24 @@
 {
   "name": "vue-luckywheel",
-  "version": "0.1.0",
-  "private": false,
+  "version": "0.1.1",
+  "author": "L·Lawliet",
   "main": "lib/vue-luckywheel.umd.min.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:LLawlight/vue-luckywheel.git"
+  },
+  "homepage": "https://llawlight.github.io/vue-luckywheel",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "build:components": "vue-cli-service build --dest lib --target lib --name vue-luckywheel src/components/index.js"
   },
+  "keywords": [
+    "vue",
+    "component"
+  ],
+  "license": "MIT",
   "dependencies": {
     "vue": "^2.5.17"
   },
