@@ -1,6 +1,6 @@
 {
   "name": "vue-luckywheel",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "L·Lawliet",
   "main": "lib/vue-luckywheel.umd.min.js",
   "repository": {

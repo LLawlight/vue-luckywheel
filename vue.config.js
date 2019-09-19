@@ -1,5 +1,7 @@
 module.exports = {
   baseUrl: process.env.NODE_ENV === 'production'
     ? '/vue-luckywheel/'
-    : '/'
+    : '/',
+
+  productionSourceMap: false
 }

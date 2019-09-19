@@ -111,6 +111,8 @@ export default {
   position: relative;
   border-radius: 100%;
   overflow: hidden;
+  // 必须改变父元素的维度才能包住子元素
+  transform: translate3d(0,0,0);
   margin: 0 auto;
 
   .vue-lucky-wheel-button {
